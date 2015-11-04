@@ -17,7 +17,7 @@ Feel free to email the appropriate address above if you have any questions.
 1. Email a patch file to the appropriate address listed above ([dev.challenges@onetechnologies.net](dev.challenges@onetechnologies.net) if you are applying for the general Senior Software Engineer or Software Engineer position).
 
 ## Project Description
-Imagine that One Technologies has just acquired a new company and their website.  We would like to continue using the existing website with the exception of replacing all customer service phone numbers of the old company with our own.  Your task is to write a console application that takes a directory as a single parameter and outputs a file with a list of all files in that directory that contain phone number with the format of either ###-###-#### or (###)###-####.  
+Imagine that One Technologies has just acquired a new company and their website.  We would like to continue using the existing website with the exception of replacing all customer service phone numbers of the old company with our own.  Your task is to write a console application that takes a file directory as a single parameter and outputs a file with a list of all files in that directory that contain phone number with the format of either ###-###-#### or (###)###-####.  
 
 Here's what your console application must do:
 
