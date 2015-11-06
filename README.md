@@ -42,3 +42,12 @@ Evaluation of your submission will be based on the following criteria:
 1. Did you follow the instructions for submission?
 
 
+## Installation Notes
+In order to execute the console application:
+
+
+1. Build the solution
+1. Run included unit tests if desired
+1. Execute the program as $TARGETDIR/ParsePhoneNumbers $TESTDIR where $TARGETDIR is the destination output for the executable and $TESTDIR is the directory root containing the documents
+1. Review console output for matching file counts
+1. Review $TARGETDIR/ParsePhoneNumbers.txt for listing of matching files
