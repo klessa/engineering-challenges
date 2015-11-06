@@ -41,4 +41,27 @@ Evaluation of your submission will be based on the following criteria:
 1. Did you document the method for setting up and running your application?
 1. Did you follow the instructions for submission?
 
+## My Submission
+I executed the program test by pulling down the contents of onetechnologies.net for identifying files with phone numbers in them, which resulted in the following matches for phone numbers:
+
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\hts-log.txt
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\hts-cache\new.lst
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\2008\03\03\test-post\index.html
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\2008\03\03\test-post\index62e6.html
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\category\company-retreats\feed\index.html
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\category\featured\feed\index.html
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\contact-us\index.html
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\feed\index.html
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\press-room\scoresense-one-technologies-ftc-settlement\index.html
+\\localhost\C$\Documents\TestDir\OneTechnologies\OneTechnologies\onetechnologies.net\tag\post\feed\index.html
+
+In order to execute the console application:
+
+1. Build the solution
+1. Run unit tests if desired
+1. Execute the program as $TARGETDIR/ParsePhoneNumbers $TESTDIR where $TARGETDIR is the destination output for the solution and $TESTDIR is the local or UNC path to the directory to be parsed
+1. Review console output for matching file counts
+1. Review $TARGETDIR/ParsePhoneNumbers.txt for listing of matching files
+
+
 
